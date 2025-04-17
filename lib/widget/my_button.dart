@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 class MyBottonWidget extends StatelessWidget {
   String text;
   void Function()? onTap;
-   MyBottonWidget({super.key,required this.text,required this.onTap});
+  final Color color;
+   MyBottonWidget({super.key,required this.text,required this.onTap,required this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -12,11 +13,12 @@ class MyBottonWidget extends StatelessWidget {
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
-          color: grey200,
-          borderRadius: BorderRadius.circular(30),
+          border: Border.all(),
+          color: color,
+          borderRadius: BorderRadius.circular(10),
         
         ),
-        padding: EdgeInsets.all(20),
+        padding: EdgeInsets.all(14),
         child: Center(
           child: Text(text),
         ),

@@ -1,0 +1,1 @@
+C:\Users\muhammed sinan\flutter project\Echo-Chat-App\build\app\intermediates\cxx\Debug\731a4v2g\obj\arm64-v8a

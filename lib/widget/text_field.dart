@@ -21,6 +21,7 @@ class TextFieldWidget extends StatelessWidget {
           borderSide: BorderSide(color: grey500)
         ),
         focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(30),
           borderSide: BorderSide(color: grey500)
         ),
         fillColor: grey200,
